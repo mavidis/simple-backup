@@ -86,7 +86,9 @@ def backup(config):
 
     # day - month - year - hours - minutes
     # 02-01-2018-13-58
-    today = datetime.datetime.now().strftime('%d-%m-%Y-%H-%M')
+    #today = datetime.datetime.now().strftime('%d-%m-%Y-%H-%M')
+    today = datetime.datetime.now().strftime('%Y-%m-%d-%H-%M')
+    
 
     # start sites backup here
     # for [backup-settings] etc sections
